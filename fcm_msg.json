@@ -1,0 +1,16 @@
+{
+  "notification":{
+    "title":"Notification title",
+    "body":"Notification body",
+    "sound":"default",
+    "click_action":"FCM_PLUGIN_ACTIVITY",
+    "icon":"fcm_push_icon"
+  },
+  "data":{
+    "param1":"value1",
+    "param2":"value2"
+  },
+  "to" : "/topics/world",
+    "priority":"high",
+    "restricted_package_name":"com.ionicframework.fcmtest421286"
+}
